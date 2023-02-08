@@ -1,0 +1,36 @@
+.logo{
+  margin-left: 40px;
+  height: 40%;
+  width: 40%;
+}
+
+.container {
+  background-color: #e4e4e4;
+  display: flex;
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav_link {
+  margin: 10px;
+  color: black;
+  text-decoration:none;
+}
+
+.car_widget {
+  color: black;
+  text-decoration:none;
+  margin-left: 200px;
+}
