@@ -1,0 +1,16 @@
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.controllers {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+.onClick {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}

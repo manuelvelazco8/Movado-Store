@@ -1,8 +1,7 @@
 import "./style.css"
 import img1 from '../images/descarga.png';
-import CartWitdget from '../CartWitdget/index';
+import CartWitdget from '../CartWitdget/CartWidget';
 import { NavLink } from "react-router-dom";
-
 
 
 export default function FunctionalComponent () {
@@ -25,7 +24,7 @@ export default function FunctionalComponent () {
                 <NavLink className="nav_link" to="/category/Womens">Womens</NavLink> 
                 </li>
                 <li>
-                <NavLink className="car_widget" href=""><CartWitdget />2</NavLink> 
+                <NavLink className="car_widget" href=""><CartWitdget /></NavLink> 
                 </li>
             </ul>
            </nav>

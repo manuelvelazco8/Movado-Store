@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { products } from "../../Data/products";
 import ItemDetail from "../../ItemDetail/ItemDetail";
 
+
 const ItemDetailContainer = () => {
   const { id } = useParams();
   const [detailObject, setDetailObject] = useState({});
@@ -26,7 +27,9 @@ const ItemDetailContainer = () => {
   }, []);
 
 
-  return <div><ItemDetail detail={detailObject} /></div>;
+  return <div>
+    <ItemDetail detail={detailObject} />
+    </div>;
 };
 
 export default ItemDetailContainer;
